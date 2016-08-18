@@ -1,7 +1,2 @@
-const loop = () => {
-
-};
-
-export default {
-  loop
+export const loop = () => {
 }

@@ -1,18 +1,13 @@
 {
-  "name": "screeps-base",
-  "version": "0.0.1",
+  "name": "screeps-remote",
+  "version": "0.0.2",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "build": "babel -d dist src",
-    "watch:src": "npm run build -- --watch --skip-initial-build",
-    "watch:dist": "nodemon -C -w dist upload.js",
-    "watch": "run-p watch:src watch:dist",
-    "test": "ava"
+    "start": "./bin/dashboard"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/overra/screeps-base.git"
+    "url": "git+https://github.com/overra/screeps-remote.git"
   },
   "keywords": [
     "screeps"
@@ -20,16 +15,14 @@
   "author": "Adam Snodgrass <overra@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/overra/screeps-base/issues"
+    "url": "https://github.com/overra/screeps-remote/issues"
   },
-  "homepage": "https://github.com/overra/screeps-base#readme",
+  "homepage": "https://github.com/overra/screeps-remote#readme",
   "devDependencies": {
-    "ava": "^0.15.2",
-    "babel-cli": "^6.10.1",
-    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-core": "^6.13.2",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-stage-0": "^6.5.0",
-    "eslint": "^2.13.1",
-    "npm-run-all": "^2.3.0"
+    "blessed": "^0.1.81",
+    "lodash": "^4.15.0"
   }
 }

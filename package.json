@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "",
   "scripts": {
-    "start": "./bin/dashboard"
+    "start": "node ./bin/dashboard"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,8 @@
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-stage-0": "^6.5.0",
     "blessed": "^0.1.81",
-    "lodash": "^4.15.0"
+    "chokidar": "^1.6.0",
+    "lodash": "^4.15.0",
+    "sockjs-client": "^1.1.1"
   }
 }

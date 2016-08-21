@@ -2,6 +2,13 @@
 
 Write your screeps in ES6 and any editor with automatic uploading.
 
+![](https://i.imgur.com/Lrsu31K.png)
+
+## Features
+
+- Remote CLI console with GCL, CPU and Memory status
+- Automatic babel transform and upload
+
 ## Setup
 
 - `git clone https://github.com/overra/screeps-remote.git`
@@ -10,4 +17,4 @@ Write your screeps in ES6 and any editor with automatic uploading.
 - Use the name of the new screeps branch in config.json
 - The main world and PTR world have separate username and password so if `ptr` is set to `true` make sure the PTR account has a username and password set.
 - Install devDependencies `npm install`
-- Run `npm run watch` and start writing screeps!
+- Run `npm start` and start writing your screeps!

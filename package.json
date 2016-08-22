@@ -25,6 +25,7 @@
     "blessed": "^0.1.81",
     "chokidar": "^1.6.0",
     "lodash": "^4.15.0",
+    "request": "^2.74.0",
     "sockjs-client": "^1.1.1"
   }
 }

@@ -79,7 +79,7 @@ module.exports = (config = {}) => {
   })
 
   modules.on('change', (file) => {
-    dashboard.console.log('{grey-fg}ModuleManager:{/} Transforming ${file}...')
+    dashboard.console.log(`{grey-fg}ModuleManager:{/} Transforming ${file}...`)
   })
 
   modules.on('change', (file) => {

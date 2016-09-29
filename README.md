@@ -10,7 +10,13 @@ Write your screeps in ES6 and any editor with automatic uploading.
 - Automatic babel transform and upload
 - [Organize](#organize-with-folders) your code with folders
 
-## Setup
+## Example
+
+An example of an "out of the box" script repository using `screeps-remote` is available here:
+
+https://github.com/troygoode/screeps-remote-example
+
+## Manual Setup
 
 Install the package as a devDependency:
 

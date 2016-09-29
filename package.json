@@ -9,7 +9,16 @@
   "keywords": [
     "screeps"
   ],
-  "author": "Adam Snodgrass <overra@gmail.com>",
+  "author": {
+    "name": "Adam Snodgrass",
+    "email": "overra@gmail.com",
+    "url": "https://github.com/overra"
+  },
+  "contributors": [{
+    "name": "Troy Goode",
+    "email": "troygoode@gmail.com",
+    "url": "https://github.com/troygoode/"
+  }],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/overra/screeps-remote/issues"

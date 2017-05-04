@@ -1,6 +1,6 @@
 {
   "name": "screeps-remote",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -14,14 +14,17 @@
     "email": "overra@gmail.com",
     "url": "https://github.com/overra"
   },
-  "contributors": [{
-    "name": "Troy Goode",
-    "email": "troygoode@gmail.com",
-    "url": "https://github.com/troygoode/"
-  }, {
-    "name": "Amit Fridman",
-    "email": "amif2000@gmail.com"
-  }],
+  "contributors": [
+    {
+      "name": "Troy Goode",
+      "email": "troygoode@gmail.com",
+      "url": "https://github.com/troygoode/"
+    },
+    {
+      "name": "Amit Fridman",
+      "email": "amif2000@gmail.com"
+    }
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/overra/screeps-remote/issues"

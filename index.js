@@ -78,6 +78,10 @@ module.exports = (config = {}) => {
     dashboard.gclStatus.setProgress(progress)
   })
 
+  screeps.on('moneyUpdate', (money) => {
+    dashboard.moneyText.setContent(`{green-fg}Money:{/}{|}${Math.floor(money)}`)
+  })
+
   modules.on('change', (file) => {
     dashboard.console.log(`{grey-fg}ModuleManager:{/} Transforming ${file}...`)
   })
